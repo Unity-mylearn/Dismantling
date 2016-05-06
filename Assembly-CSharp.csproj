@@ -156,6 +156,7 @@
      <Compile Include="Assets\Scripts\Commcon\AppConst.cs" />
      <Compile Include="Assets\Scripts\Commcon\ObjectManager.cs" />
      <Compile Include="Assets\Scripts\Commcon\ResourceManager.cs" />
+     <Compile Include="Assets\Scripts\Commcon\Tips.cs" />
      <Compile Include="Assets\Scripts\Commcon\Util.cs" />
      <Compile Include="Assets\Scripts\Dismantling.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />

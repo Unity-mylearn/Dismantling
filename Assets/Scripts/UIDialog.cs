@@ -65,7 +65,11 @@ public class UIDialog : MonoBehaviour {
 				GameController.CURRENTGB++;
 				clickGameobject.SetActive (false);
 				CloseDialog ();
+			} else {
+				Tips.TIP.ShowTips ("工具好像错了哦",1f);
 			}
+		} else {
+			Tips.TIP.ShowTips ("顺序好像错了哦", 1f);
 		}
 	}
 
