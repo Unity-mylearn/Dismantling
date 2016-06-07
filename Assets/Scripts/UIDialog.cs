@@ -53,6 +53,7 @@ public class UIDialog : MonoBehaviour {
 
 	public void CloseDialog(){
 		gameObject.SetActive (false);
+		GameController.STATE = GameState.SHOW_MODEL;
 	}
 
 	public void OnBackClick(){

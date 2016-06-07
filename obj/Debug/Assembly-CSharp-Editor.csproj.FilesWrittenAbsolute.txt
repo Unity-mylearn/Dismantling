@@ -30,3 +30,4 @@
 /Users/bonbon/Desktop/Dismantling/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/bonbon/Desktop/Dismantling/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/bonbon/Desktop/Dismantling/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/bonbon/Desktop/Dismantling/Temp/bin/Debug/UnityEditor.WebGL.Extensions.dll

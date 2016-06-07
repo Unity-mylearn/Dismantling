@@ -13,8 +13,25 @@ public enum ToolKind{
 	BLOCK = 7,
 }
 
+
+public enum GameState{
+	SHOW_MODEL = 0,
+	UI_OPERATION = 1,
+	GAME_OVER = 2
+}
+
 public class GameController : MonoBehaviour {
 
+
+	private static GameState state;
+	public static GameState STATE{
+		get{ 
+			return state;
+		}
+		set{ 
+			state = value;
+		}
+	}
 
 	private static int totalGb;
 	public static int TOTALGB{
@@ -34,6 +51,10 @@ public class GameController : MonoBehaviour {
 		set{
 			currentGb = value;
 		}
+	}
+
+	void Awake(){
+		state = GameState.SHOW_MODEL;
 	}
 
 	void Update(){

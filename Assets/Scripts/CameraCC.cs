@@ -29,6 +29,8 @@ public class CameraCC : MonoBehaviour {
 	}
 
 	void Update(){
+		if (GameController.STATE != GameState.SHOW_MODEL)
+			return;
 		if (Input.GetMouseButtonDown(0)) {
 			RaycastHit _rayCast;
 			Ray _ray;
@@ -44,9 +46,11 @@ public class CameraCC : MonoBehaviour {
 				param [1] = desc;
 				param [2] = gb;
 				param [3] = gb.GetComponent<Items> ().TOOL;
+				GameController.STATE = GameState.UI_OPERATION;
 				gb.SendMessage ("ShowDialogAndOperationButton",param);
 			}
 		}
+
 		if (Input.touchCount == 1) {
 			if (Input.GetTouch (0).phase == TouchPhase.Moved) {
 				x += Input.GetAxis ("Mouse X") * xSpeed * Time.deltaTime;
@@ -67,6 +71,7 @@ public class CameraCC : MonoBehaviour {
 					param [1] = desc;
 					param [2] = gb;
 					param [3] = gb.GetComponent<Items> ().TOOL;
+					GameController.STATE = GameState.UI_OPERATION;
 					gb.SendMessage ("ShowDialogAndOperationButton",param);
 				}
 			}
