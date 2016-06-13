@@ -1,21 +1,26 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIDialog.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Items.cs">
     <Files>
+      <File FileName="Assets/Scripts/Dismantling.cs" Line="36" Column="14" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="19" Column="19" />
+      <File FileName="Assets/Scripts/InfoMonkey.txt" Line="4" Column="10" />
+      <File FileName="Assets/Scripts/InfoGameObject1.txt" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Items.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/Tools.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/UIDialog.cs" Line="56" Column="47" />
+      <File FileName="Assets/Scripts/Commcon/AppConst.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Commcon/ObjectManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Commcon/ResourceManager.cs" Line="19" Column="22" />
       <File FileName="Assets/Scripts/Commcon/Tips.cs" Line="22" Column="15" />
-      <File FileName="Assets/Scripts/Commcon/AppConst.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/Commcon/ObjectManager.cs" Line="13" Column="20" />
-      <File FileName="Assets/Scripts/Commcon/ResourceManager.cs" Line="16" Column="13" />
-      <File FileName="Assets/Scripts/Commcon/Util.cs" Line="15" Column="2" />
-      <File FileName="Assets/Scripts/CameraCC.cs" Line="50" Column="59" />
-      <File FileName="Assets/Scripts/Items.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Tools.cs" Line="24" Column="2" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="60" Column="16" />
+      <File FileName="Assets/Scripts/Commcon/Util.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraCC.cs" Line="48" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/bonbon/Desktop/Dismantling/Assets/Scripts/CameraCC.cs" line="35" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

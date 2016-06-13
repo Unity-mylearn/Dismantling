@@ -35,7 +35,7 @@ public class CameraCC : MonoBehaviour {
 			RaycastHit _rayCast;
 			Ray _ray;
 			_ray = transform.GetComponent<Camera> ().ScreenPointToRay (Input.mousePosition);
-			if (Physics.Raycast (_ray, out _rayCast, 1000)) {
+			if (Physics.Raycast (_ray, out _rayCast, 10000)) {
 				Debug.DrawLine (_ray.origin, _rayCast.point, Color.red, 2.0f);
 				GameObject gb = _rayCast.collider.gameObject;
 				object[] param = new object[4];
